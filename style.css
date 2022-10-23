@@ -17,6 +17,7 @@ section {
 body, .learn {
   font-size: 0.938rem;
   font-family: "Lexend Deca", sans-serif;
+  background: var(--Very-light-gray);
 }
 .card-holder {
   display: flex;
@@ -32,7 +33,7 @@ body, .learn {
   color: #fff;
 }
 .learn{
-  background: white;
+  background: var(--Very-light-gray);
   border: 2px solid transparent;
   padding: 0.625rem 1.25rem;
   font-weight: bold;
@@ -51,10 +52,12 @@ body, .learn {
   font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: var(--Very-light-gray);
 }
 .card p {
   margin: 1rem 0;
   line-height: 1.5;
+  color: var(--Transparent-white);
 }
 .sedan {
   background: var(--bright-orange);
